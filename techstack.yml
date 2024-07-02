@@ -1,0 +1,381 @@
+repo_name: huhuhuHR/generator
+report_id: 651755b825f1a87525566e6c9af39a08
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:58+00:00'
+requested_by: hazendaz
+provider: github
+branch: master
+detected_tools_count: 31
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/generator
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/generator
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/huhuhuHR/generator
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/src/test/resources/scripts/CreateDB.sql
+  detection_source: core/mybatis-generator-core/src/test/resources/scripts/CreateDB.sql
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-05-01 17:27:00.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2016-05-03 20:57:00.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-maven-plugin/pom.xml
+  detection_source: core/mybatis-generator-maven-plugin/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/generator
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2016-05-03 20:57:00.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2017-05-17 14:17:24.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2016-05-03 20:57:00.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2015-10-13 01:05:14.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/generator
+  detection_source: Repo Metadata
+- name: com.github.javaparser:javaparser-core
+  description: The core parser functionality. This may be all you need
+  license: LGPL-2.1+,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2018-09-16 21:54:14.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2017-05-17 14:17:24.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2017-05-17 14:17:24.000000000 Z
+- name: org.apache.ant:ant
+  description: Master POM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-annotations
+  description: Java 5 annotations to use in Mojos
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-maven-plugin/pom.xml
+  detection_source: core/mybatis-generator-maven-plugin/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-maven-plugin/pom.xml
+  detection_source: core/mybatis-generator-maven-plugin/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-maven-plugin/pom.xml
+  detection_source: core/mybatis-generator-maven-plugin/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.junit.platform:junit-platform-launcher
+  description: Module "junit-platform-launcher" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.mybatis.generator:mybatis-generator-core
+  description: MyBatis Generator - a code generator for MyBatis and iBatis
+  version: 1.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-maven-plugin/pom.xml
+  detection_source: core/mybatis-generator-maven-plugin/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
+- name: org.mybatis:mybatis
+  description: The MyBatis SQL mapper framework makes it easier to use a relational
+    database with object-oriented applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-systests-mybatis3-java8/pom.xml
+  detection_source: core/mybatis-generator-systests-mybatis3-java8/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2018-09-10 02:44:05.000000000 Z
+- name: org.reflections:reflections
+  description: Reflections - a Java runtime metadata analysis
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-systests-domtests/pom.xml
+  detection_source: core/mybatis-generator-systests-domtests/pom.xml
+  last_updated_by: Jeff Butler
+  last_updated_on: 2016-06-23 20:33:48.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/generator/blob/master/core/mybatis-generator-core/pom.xml
+  detection_source: core/mybatis-generator-core/pom.xml
+  last_updated_by: Iwao AVE!
+  last_updated_on: 2018-12-30 06:42:45.000000000 Z
